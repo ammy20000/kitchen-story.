@@ -1,0 +1,16 @@
+<header>
+    <div class="navbar shadow-sm">
+        <div class="container">
+            <div class="navbar-brand align-item-center d-flex">
+                <div>
+                    <img routerLink="/products" class="logo" src="./assets/images/logo.png" alt="">
+                </div>
+                <strong class="header-title">The Kitchen Story</strong>
+            </div>
+        </div>
+        <button routerLink="cart" class="btn">
+            <i style="font-size: 30px;color: black;" class="fas fa-cart-plus"></i>
+            <div style="font-size: 15px;color: red; padding: 0;" class="badge">{{totalItem}}</div>
+        </button>
+    </div>
+</header>
